@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Angular",
+        "icon": "/assets/images/skills/Angular.png"
+    },
+    
+    {
+        "name": "Firebase",
+        "icon": "/assets/images/skills/firebase.png"
+    },
+    
+    {
+        "name": "Bootstrap",
+        "icon": "/assets/images/skills/bootstrap.png"
+    },
+   
+    {
+        "name": "HTML5",
+        "icon": "/assets/images/skills/html.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "/assets/images/skills/css.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "/assets/images/skills/js.png"
+    },
+    
+    {
+        "name": "Netlify",
+        "icon": "/assets/images/skills/netlify.png"
+    }, 
+    {
+        "name": "jQuery",
+        "icon": "/assets/images/skills/jquery.png"
+    },
+    {
+        "name": "Git",
+        "icon": "/assets/images/skills/git.png"
+    },
+    {
+        "name":"TypeScript",
+        "icon":"/assets/images/skills/typescript.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "/assets/images/skills/github.png"
+    }    
+]

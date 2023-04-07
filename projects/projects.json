@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Academy Project",
+    "desc": "Back-end connection and dynamic web pages. Built using Angular, Firebase, Bootstrap , HTML, Angular Material , CSS, Typescript",
+    "image": "AODI",
+    "category": "Web",
+    "links": {
+      "view": "https://academy-final-project.vercel.app/home",
+      "code": "https://github.com/mikadze13/academy-final-project"
+    }
+  },
+  {
+    "name": "Unilab Project",
+    "desc": "Back-end connection and dynamic web pages. Built using HTML, CSS, Bootstrap, Javascript",
+    "image": "unilab",
+    "category": "Web",
+    "links": {
+      "view": "https://vazha-mikadzeunilab.vercel.app/index.html",
+      "code": "https://github.com/mikadze13/VazhaMikadze"
+    }
+  },
+  {
+    "name": "Casino",
+    "desc": "Guess card game. Built using Angular, Bootstrap ,HTML, CSS, Typescript",
+    "image": "casino",
+    "category": "Web",
+    "links": {
+      "view": "https://casinodemo.vercel.app/deposit",
+      "code": "https://github.com/mikadze13/casino"
+    }
+  },
+  {
+    "name": "Rick and Morty",
+    "desc": "Back-end connection and filter character. Built using Angular,  Bootstrap , HTML , CSS, Typescript",
+    "image": "rick",
+    "category": "Web",
+    "links": {
+      "view": "https://rick-and-morty-kappa-blond.vercel.app/",
+      "code": "https://github.com/mikadze13/Rick-And-Morty"
+    }
+  },
+  {
+    "name": "Photon Project",
+    "desc": "only Markup. Built using Bootstrap , HTML , CSS, Javascript, Firebase",
+    "image": "photon",
+    "category": "Web",
+    "links": {
+      "view": "https://github.com/mikadze13/photon-project",
+      "code": "https://photon-project.vercel.app/"
+    }
+  }
+
+
+   
+]
