@@ -206,6 +206,7 @@ header .navbar ul li a:hover {
   flex: 1 1 40rem;
   padding-top: 1rem;
   z-index: 1;
+  margin-top: 56px;
 }
 .home .image {
   flex: 1 1 40rem;
@@ -449,7 +450,7 @@ header .navbar ul li a:hover {
     margin-bottom: 7rem;
   }
   .about .row .content {
-    padding: 1rem;
+    padding: 1rem; 
   }
   .about .row .content .box-container {
     gap: 0;
