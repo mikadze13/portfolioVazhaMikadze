@@ -39,15 +39,15 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("GsK8MxX_gN_Dl2HqlZpCB");
+        emailjs.init("R4TmGdpVjH2TFV1cK");
         // emailjs.send("service_lxjztok","template_3bcdteo");
         emailjs.sendForm('service_lxjztok', 'template_3bcdteo', '#contact-form')
             .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
+                // console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
                 alert("Form Submitted Successfully");
             }, function (error) {
-                console.log('FAILED...', error);
+                // console.log('FAILED...', error);
                 alert("Form Submission Failed! Try Again");
             });
         event.preventDefault();
@@ -144,20 +144,7 @@ fetchData().then(data => {
 fetchData("projects").then(data => {
     showProjects(data);
 });
- 
-// <!-- tilt js effect ends -->
-
-
-// pre loader start
-// function loader() {
-//     document.querySelector('.loader-container').classList.add('fade-out');
-// }
-// function fadeOut() {
-//     setInterval(loader, 500);
-// }
-// window.onload = fadeOut;
-// pre loader end
-
+  
 // disable developer mode
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {

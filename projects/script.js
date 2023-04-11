@@ -22,7 +22,7 @@ document.addEventListener('visibilitychange',
         if (document.visibilityState === "visible") {
             document.title = "Projects | Portfolio Vazha Mikadze";
             $("#favicon").attr("href", "/assets/images/favicon.png");
-        } 
+        }
     });
 
 
@@ -101,7 +101,7 @@ getProjects().then(data => {
 })
 // fetch projects end
 
- 
+
 // disable developer mode
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
@@ -123,33 +123,103 @@ document.onkeydown = function (e) {
 
 // send information in firebase
 
-const db = firebase.firestore();
 
-const registrationsCollection = db.collection('registrations');
 
-function handleRegistrationSubmit(event){
+// const db = firebase.firestore();
+
+// const registrationsCollection = db.collection('registrations');
+
+// function handleRegistrationSubmit(event){
+//     event.preventDefault();
+
+
+//     const formData = new FormData(event.target);
+//     const name = formData.get('name');
+//     const email = formData.get('email');
+//     const number = formData.get('number');
+//     const message = formData.get('message');
+
+
+// registrationsCollection.add({
+//     name,
+//     email,
+//     number,
+//     message
+// }).then(()=>{
+//     console.log('registration information added to firestore!');
+
+// }).catch(error =>{
+//     console.log('error adding registration information to firestore:', error)
+// }) ;
+// }
+
+// const registrationForm = document.getElementById('contact-form');
+// registrationForm.addEventListener('submit', handleRegistrationSubmit);
+
+// Replace these with your actual email service, user, and template IDs
+ 
+const EMAIL_SERVICE_ID = 'service_lxjztok';
+const EMAIL_USER_ID = 'R4TmGdpVjH2TFV1cK';
+const EMAIL_TEMPLATE_ID = 'template_3bcdteo';
+
+emailjs.init(EMAIL_SERVICE_ID, EMAIL_USER_ID);
+
+
+
+
+function sendEmail(data) {
+    // Replace these with your actual email service, user, and template IDs
+    const EMAIL_SERVICE_ID = 'service_lxjztok';
+    const EMAIL_USER_ID = 'R4TmGdpVjH2TFV1cK';
+    const EMAIL_TEMPLATE_ID = 'template_3bcdteo';
+
+    // Prepare the email parameters
+    const emailParams = {
+        to_name: data.name,
+        to_email: data.email,
+        message: data.message
+    };
+
+    // Send the email using EmailJS
+    emailjs.send(EMAIL_SERVICE_ID, EMAIL_TEMPLATE_ID, emailParams, EMAIL_USER_ID)
+        .then(function (response) {
+            console.log('Email sent successfully', response);
+        }, function (error) {
+            console.error('Failed to send email', error);
+        });
+}
+const data = {
+    name: 'John Doe',
+    email: 'johndoe@example.com',
+    message: 'Hello, this is a test email sent using EmailJS!'
+};
+
+sendEmail(data);
+
+
+
+const btn = document.getElementById("btn")
+
+document.getElementById("form").addEventListener("submit", function (event) {
     event.preventDefault();
 
+    btn.value = "Sending...";
 
-    const formData = new FormData(event.target);
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const number = formData.get('number');
-    const message = formData.get('message');
-    
+    const serviceID = "service_lxjztok";
+    const templateID = "template_3bcdteo";
 
-registrationsCollection.add({
-    name,
-    email,
-    number,
-    message
-}).then(()=>{
-    console.log('registration information added to firestore!');
-
-}).catch(error =>{
-    console.log('error adding registration information to firestore:', error)
-}) ;
-}
-
-const registrationForm = document.getElementById('contact-form');
-registrationForm.addEventListener('submit', handleRegistrationSubmit);
+    emailjs.sendForm(serviceID, templateID, this).then(
+        () => {
+            btn.value = "Send Email";
+            alert("Sent!");
+            document.querySelector("#to_name").value = "";
+            document.querySelector("#from_email").value = "";
+            document.querySelector("#phone").value = "";
+            document.querySelector("#message").value = "";
+        },
+        (err) => {
+            btn.value = "Send Email";
+            console.log(JSON.stringify(err));
+        }
+    );
+});
