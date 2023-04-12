@@ -2,7 +2,7 @@
 # Portfolio
 About me! 
 ## Links
-- Live site URL - [Live site](https://casinodemo.vercel.app/)
+- Live site URL - [Live site](https://vazhamikadze.vercel.app/)
 - Solution URL - [Solution URL](https://github.com/mikadze13/portfolioVazhaMikadze)
 
 ## Built with
