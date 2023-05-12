@@ -19,6 +19,19 @@
       "code": "https://github.com/mikadze13/VazhaMikadze"
     }
   },
+  
+  {
+    "name": "Cavea cinema project",
+    "desc": "Firebase connection and dynamic web pages.Add and remove information from database ",
+    "image": "cavea",
+    "category": "Web",
+    "links": {
+      "view": "https://cavea-cinema-rk.vercel.app/home",
+      "code": "https://github.com/mikadze13/caveaCinema"
+    }
+  },
+
+
   {
     "name": "Casino",
     "desc": "Guess card game. Built using Angular, Bootstrap ,HTML, CSS, Typescript",
