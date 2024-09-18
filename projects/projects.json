@@ -60,12 +60,12 @@
     }
   },
   {
-    "name": "Sakhelosno",
+    "name": "Masterclub",
     "desc": "Built using Bootstrap , HTML , CSS, Javascript, jquery",
-    "image": "sakhelosno",
+    "image": "Masterclub",
     "category": "Web",
     "links": {
-      "view": "https://sakhelosnoinfo.ge/",
+      "view": "https://masterclub.ge/",
       "code": "https://github.com/mikadze13/sakhelosno"
     }
   }
