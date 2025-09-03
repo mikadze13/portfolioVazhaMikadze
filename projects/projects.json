@@ -1,5 +1,35 @@
 [
   {
+    "name": "Dumanbet",
+    "desc": "Gambling website. Built using Vue.js",
+    "image": "Dumanbet",
+    "category": "Web",
+    "links": {
+      "view": "https://dumanbet.com/",
+      "code": ""
+    }
+  },
+  {
+    "name": "Sekabet",
+    "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascript, jquery",
+    "image": "Sekabet",
+    "category": "Web",
+    "links": {
+      "view": "https://sekagirisyap.com/",
+      "code": ""
+    }
+  },
+  {
+    "name": "Masterclub",
+    "desc": "Built using Bootstrap , HTML , CSS, Javascript, jquery",
+    "image": "sakhelosno",
+    "category": "Web",
+    "links": {
+      "view": "https://sakhelosno.vercel.app/",
+      "code": "https://github.com/mikadze13/sakhelosno"
+    }
+  },
+  {
     "name": "Academy Project",
     "desc": "Back-end connection and dynamic web pages. Built using Angular, Firebase, Bootstrap , HTML, Angular Material , CSS, Typescript",
     "image": "AODI",
@@ -57,16 +87,6 @@
     "links": {
       "view": "https://photon-project.vercel.app/",
       "code": "https://github.com/mikadze13/photon-project"
-    }
-  },
-  {
-    "name": "Masterclub",
-    "desc": "Built using Bootstrap , HTML , CSS, Javascript, jquery",
-    "image": "sakhelosno",
-    "category": "Web",
-    "links": {
-      "view": "https://masterclub.ge/",
-      "code": "https://github.com/mikadze13/sakhelosno"
     }
   }
 ]

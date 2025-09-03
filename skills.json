@@ -3,7 +3,10 @@
         "name": "Angular",
         "icon": "/assets/images/skills/Angular.png"
     },
-    
+    {
+        "name": "Vue.js",
+        "icon": "/assets/images/skills/vue.png"
+    }, 
     {
         "name": "Firebase",
         "icon": "/assets/images/skills/firebase.png"

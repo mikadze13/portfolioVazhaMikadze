@@ -39,9 +39,9 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("R4TmGdpVjH2TFV1cK");
+        emailjs.init("Mi4NfqXJcXNP1CnbG");
         // emailjs.send("service_lxjztok","template_3bcdteo");
-        emailjs.sendForm('service_lxjztok', 'template_3bcdteo', '#contact-form')
+        emailjs.sendForm('service_ibglkre', 'template_3bcdteo', '#contact-form')
             .then(function (response) {
                 // console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
@@ -91,7 +91,7 @@ function showSkills(skills) {
     skills.forEach(skill => {
         skillHTML += `
         <div class="bar">
-              <div class="info">
+              <div class="info" >
                 <img src=${skill.icon} alt="skill" />
                 <span>${skill.name}</span>
               </div>
@@ -121,7 +121,7 @@ function showProjects(projects) {
       </div>
     </div>`
     });
-    projectsContainer.innerHTML = projectHTML; 
+    projectsContainer.innerHTML = projectHTML;
     // <!-- tilt js effect ends -->
 
     /* ===== SCROLL REVEAL ANIMATION ===== */
@@ -144,7 +144,7 @@ fetchData().then(data => {
 fetchData("projects").then(data => {
     showProjects(data);
 });
-  
+
 // disable developer mode
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
@@ -164,7 +164,7 @@ document.onkeydown = function (e) {
     }
 }
 
- 
+
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
