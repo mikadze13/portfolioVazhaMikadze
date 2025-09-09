@@ -2,7 +2,7 @@
   {
     "name": "Dumanbet",
     "desc": "Gambling website. Built using Vue.js",
-    "image": "Dumanbet",
+    "image": "dumanbet",
     "category": "Web",
     "links": {
       "view": "https://dumanbet.com/",
@@ -12,7 +12,7 @@
   {
     "name": "Sekabet",
     "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascript, jquery",
-    "image": "Sekabet",
+    "image": "sekabet",
     "category": "Web",
     "links": {
       "view": "https://sekagirisyap.com/",
