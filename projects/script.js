@@ -5,7 +5,7 @@ $(document).ready(function () {
         $('.navbar').toggleClass('nav-toggle');
     });
 
-    $(window).on('scroll load', function () {
+    $(window).on('scroll load', function () { 
         $('#menu').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
 
