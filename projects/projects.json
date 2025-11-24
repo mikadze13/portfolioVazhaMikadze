@@ -10,8 +10,18 @@
     }
   },
   {
+    "name": "Maltcasino",
+    "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascirpt ,.NET MVC/Razor",
+    "image": "maltcasino",
+    "category": "Web",
+    "links": {
+      "view": "https://maltcasino.com/",
+      "code": ""
+    }
+  },
+  {
     "name": "Sekabet",
-    "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascript, jquery",
+    "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascirpt ,.NET MVC/Razor",
     "image": "sekabet",
     "category": "Web",
     "links": {
