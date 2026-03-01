@@ -11,7 +11,7 @@
   },
   {
     "name": "Maltcasino",
-    "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascirpt ,.NET MVC/Razor",
+    "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascirpt , JQuery, .NET MVC/Razor",
     "image": "maltcasino",
     "category": "Web",
     "links": {
@@ -21,11 +21,41 @@
   },
   {
     "name": "Sekabet",
-    "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascirpt ,.NET MVC/Razor",
+    "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascirpt , JQuery, .NET MVC/Razor",
     "image": "sekabet",
     "category": "Web",
     "links": {
       "view": "https://sekagirisyap.com/",
+      "code": ""
+    }
+  },
+  {
+    "name": "Asyabahis",
+    "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascirpt , JQuery, .NET MVC/Razor",
+    "image": "asyabahis",
+    "category": "Web",
+    "links": {
+      "view": "https://asyabahis.com/",
+      "code": ""
+    }
+  },
+  {
+    "name": "olabahis",
+    "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascirpt , JQuery, .NET MVC/Razor",
+    "image": "olabahis",
+    "category": "Web",
+    "links": {
+      "view": "https://olabahis.com/",
+      "code": ""
+    }
+  },
+  {
+    "name": "pinbahis",
+    "desc": "Gambling website.Built using Bootstrap , HTML , CSS, Javascirpt , JQuery, .NET MVC/Razor",
+    "image": "pinbahis",
+    "category": "Web",
+    "links": {
+      "view": "https://pinbahis.com/",
       "code": ""
     }
   },
@@ -48,17 +78,7 @@
       "view": "https://academy-final-project.vercel.app/home",
       "code": "https://github.com/mikadze13/academy-final-project"
     }
-  },
-  {
-    "name": "Unilab Project",
-    "desc": "Back-end connection and dynamic web pages. Built using HTML, CSS, Bootstrap, Javascript",
-    "image": "unilab",
-    "category": "Web",
-    "links": {
-      "view": "https://vazha-mikadzeunilab.vercel.app/index.html",
-      "code": "https://github.com/mikadze13/VazhaMikadze"
-    }
-  },
+  }, 
   {
     "name": "Cavea cinema project",
     "desc": "Firebase connection and dynamic web pages.Add and remove information from database ",
